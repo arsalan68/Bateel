@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar-toggler-icon{
+  color: black !important;
+  /* background-color: black; */
+}
+.navbar{
+ background-color: #c4a577;
+ color: black;
+
+}
+.searchBoxContainer{
+  position: relative;
+}
+.searchBox{
+  display: flex;
+  gap: 0px;
+  position: absolute;
+  top: 200%;
+  right: 50%;
+}
+.navComponent{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.headerComponent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+  gap: 20px;
+  background-color: white;
+}
+.headerComponent ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.footerPages{
+  height: 500px;
+  width:100%;
+  background-color:#1a110a;
+}
+.ulPages{
+  list-style: none;
+}
+.ulPages li a{
+   color: white;
+}
+.bgPages{
+  height: 50px;
+  width: 100%;
+  background-color: #8b7452;
 }
